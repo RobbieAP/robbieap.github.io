@@ -17,3 +17,8 @@
 Trialled
 * Bar Widget Time delay
 * Popup on exit
+
+
+---
+<a href="" class="TestLinkClass" id="TestLinkId">This is a link></a>
+---
