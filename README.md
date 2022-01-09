@@ -20,10 +20,10 @@ Trialled
 
 
 ---
+### Test Links  
 
-<a class="TestLinkClass">This is a link with class</a>
-<a id="TestLinkId">This is a link with id</a>
-
-<a href="" class="TestLinkClass">This is a link with a href</a>
-
+* <a class="TestLinkClass">This is a link with class</a>
+* <a id="TestLinkId">This is a link with id</a>
+* <a href="" class="TestLinkClass">This is a link with an empty href</a>
+* <a href="#" class="TestLinkClass">This is a link with an # href</a>
 ---
