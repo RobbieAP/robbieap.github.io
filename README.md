@@ -20,5 +20,5 @@ Trialled
 
 
 ---
-<a href="" class="TestLinkClass" id="TestLinkId">This is a link></a>
+<a href="" class="TestLinkClass" id="TestLinkId">This is a link</a>
 ---
