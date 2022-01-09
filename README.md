@@ -19,17 +19,28 @@ Trialled
 * Popup on exit
 
 
+
+
 ---
-### Test Links  
+### Test Links 
+
+~~~
+#TestLinkId
+.TestLinkClass
+~~~
 
 * <a class="TestLinkClass">This is a link with class</a>
 * <a id="TestLinkId">This is a link with id no class</a>
-* <a href="" class="TestLinkClass">This is a link with an empty href</a>
+* <a href="" class="TestLinkClass">This is a link with an empty href - reloads page</a>
 * <a href="#" class="TestLinkClass">This is a link with an # href</a>
 * <a href="#" class="TestLinkClass">This is a link with an #0 href an unused reference</a>
 * <a href="#" onclick="return false;" class="TestLinkClass">This is a link with a onclick return false and href = #  </a>
 * <a href="javascript:void(0)" class="TestLinkClass"> This is a link with a javascript void(0) tag </a>
 * <a href="javascript:{}" class="TestLinkClass"> This is a link with a javascript {} tag </a>
-* <a href="www.google.com" class="TestLinkClass">This is a regular link to google</a>
+* <a href="http://www.google.com" class="TestLinkClass">This is a regular link to google</a>
 
+
+### Test Buttons
+
+* <button class="TestLinkClass">A non navigating button with class</button>
 ---
