@@ -91,9 +91,24 @@ Trialled from Scratch - some duplicated
 
 ### Popup - Built from Scratch TODO
 
+* [Popup on Load](popup/onLoad.md)
+* [Popup on timer](popup/onTimer.md)
+* [Popup on Exit](popup/onExit.md)
+* [Popup on Scroll](popup/onScroll.md)
+
 ### Notification - Built from Scratch TODO
 
+* [Notification on Load](notification/onLoad.md)
+* [Notification on timer](notification/onTimer.md)
+* [Notification on Exit](notification/onExit.md)
+* [Notification on Scroll](notification/onScroll.md)
+
 ### Takeover - Built from Scratch TODO
+
+* [Takeover on Load](takeover/onLoad.md)
+* [Takeover on timer](takeover/onTimer.md)
+* [Takeover on Exit](takeover/onExit.md)
+* [Takeover on Scroll](takeover/onScroll.md)
 
 ### Spinner - Built from Scratch TODO
 
