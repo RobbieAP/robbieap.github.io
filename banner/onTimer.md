@@ -1,9 +1,8 @@
 ---
-title: On Timer
+title: Banner On Timer
 layout: template
-filename: onTimer.md
+filename: onTimer
 --- 
-
 
 <!-- Robs cookie deleter capture code -->
 <script>
@@ -39,8 +38,6 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
-
-
 
 
 Banner 5 seconds, Once per session, or until they convert
