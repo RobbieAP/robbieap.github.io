@@ -17,7 +17,9 @@
 Trialled
 * Bar Widget Time delay
 * Popup on exit
-
+* Notification on Click Id, Class
+* Takeover on Click Class
+* Banner 10 Secs
 
 
 
@@ -42,5 +44,5 @@ Trialled
 
 ### Test Buttons
 
-* <button class="TestLinkClass">A non navigating button with class</button>
+* <button class="TestLinkClass">A non navigating button with TestLinkClass</button>
 ---
