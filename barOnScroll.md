@@ -1,5 +1,5 @@
 ---
-title: Banner On Scroll
+title: Bar On Scroll
 layout: template
 filename: barOnScroll.md
 --- 
