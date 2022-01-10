@@ -26,4 +26,4 @@ let delete_cookie = function(name) {
 </script>
 
 
-Banner 5 seconds, Once per session, or until they convert
+popup 5 seconds, Once per session, or until they convert
