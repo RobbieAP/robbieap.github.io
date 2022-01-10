@@ -77,7 +77,7 @@ Trialled from Scratch - some duplicated
 
 ### Bar - Scratch
 
-* <button href="/barOnLoad">Bar on page load</button>
+* [Bar on load](barOnLoad.md)
 * <button href="/barOnTimer">Bar on timer</button>
 * <button href="/barOnExit">Bar on exit</button>
 * <button href="/barOnScroll">Bar on scroll</button>
