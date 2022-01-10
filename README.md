@@ -38,7 +38,7 @@ Trialled from Scratch - some duplicated
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
 * <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
-* <button onclick="() => delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
+* <button onclick="delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
 
 ### Test Links 
 
