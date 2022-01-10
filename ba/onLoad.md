@@ -1,7 +1,7 @@
 ---
 title: Bar On Load
 layout: template
-filename: barOnLoad.md
+filename: onLoad.md
 --- 
 
 <!-- Robs cookie deleter capture code -->
