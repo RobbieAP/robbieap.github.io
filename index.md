@@ -84,10 +84,10 @@ Trialled from Scratch - some duplicated
 
 ### Banner - Scratch
 
-* [Banner on Load](bannerOnLoad.md)
-* [Banner on timer](bannerOnTimer.md)
-* [Banner on Exit](bannerOnExit.md)
-* [Banner on Scroll](bannerOnScroll.md)
+* [Banner on Load](banner/onLoad.md)
+* [Banner on timer](banner/onTimer.md)
+* [Banner on Exit](banner/onExit.md)
+* [Banner on Scroll](banner/onScroll.md)
 
 
 
