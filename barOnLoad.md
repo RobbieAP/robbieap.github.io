@@ -4,22 +4,7 @@ layout: template
 filename: barOnLoad.md
 --- 
 
-<!-- Robs cookie deleter capture code -->
-<script>
-var runDeleteCookie = true;	
-	
-if(runCode){	
-let delete_cookie = function(name) {
-    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-	console.log("Deleted ", name, "cookie");
-};
-let cookies = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
-cookies.forEach((name) => delete_cookie(name));
-	
-	runDeleteCookie = false;
-	}
-	
-</script>
+
 
 <!-- Autopilot robert capture code -->
 <script>
@@ -34,5 +19,18 @@ cookies.forEach((name) => delete_cookie(name));
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
 
+<!-- Robs cookie deleter capture code -->
+<script>
+var runDeleteCookie = true;	
+	
+if(runCode){	
+
+let cookiesToDel = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
+cookiesToDel.forEach((name) => removeCookie(name));
+	
+	runDeleteCookie = false;
+	}
+	
+</script>
 
 Bar on Load, Once per session, or until they convert
