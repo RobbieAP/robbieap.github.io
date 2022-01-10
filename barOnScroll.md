@@ -4,6 +4,27 @@ layout: template
 filename: barOnScroll.md
 --- 
 
+<!-- Robs cookie deleter capture code -->
+<script>
+	
+var runDeleteCookie = true;	
+	
+if(runDeleteCookie){	
+	
+let COOKIESTODELETE = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
+	
+let delete_cookie = function(name) {
+    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+	console.log("Deleted ", name, "cookie");
+};
+
+COOKIESTODELETE.forEach((name) => delete_cookie(name));
+	
+	runDeleteCookie = false;
+	}
+	
+</script>
+
 
 <!-- Autopilot robert capture code -->
 <script>
