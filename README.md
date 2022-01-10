@@ -1,8 +1,4 @@
----
-title: Banner On Timer
-layout: template
-filename: widgetOnTimerBanner
---- 
+
 
 <!-- Autopilot robert capture code -->
 <script>
