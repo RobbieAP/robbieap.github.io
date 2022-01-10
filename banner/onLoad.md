@@ -1,7 +1,7 @@
 ---
-title: Banner On Load
+title: On Load
 layout: template
-filename: bannerOnLoad.md
+filename: onLoad.md
 --- 
 
 <!-- Robs cookie deleter capture code -->
@@ -26,7 +26,6 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 </script>
 
 
-
 <!-- Autopilot robert capture code -->
 <script>
 	window.ap3c = window.ap3c || {};
@@ -41,4 +40,4 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 </script>
 
 
-Banner on Load, Once per session, or until they convert
+On Load, Once per session, or until they convert
