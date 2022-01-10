@@ -34,8 +34,10 @@ Trialled from Scratch - some duplicated
 ---
 ### Remove Cookies
 
-<button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>"
-
+* <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>
+* <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
+* <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
+* <button onclick="('ap3sess') => delete_cookie">Delete ap3sess Cookie</button>
 
 ### Test Links 
 
