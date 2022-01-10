@@ -1,7 +1,7 @@
 ---
 title: Bar On Timer
 layout: template
-filename: barOnTimer
+filename: onTimer
 --- 
 
 
