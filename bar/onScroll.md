@@ -1,7 +1,7 @@
 ---
 title: Bar On Scroll
 layout: template
-filename: barOnScroll.md
+filename: onScroll.md
 --- 
 
 <!-- Robs cookie deleter capture code -->
