@@ -14,6 +14,7 @@
 <script>
 let delete_cookie = function(name) {
     document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+	console.log("Deleted ", name, "cookie");
 };
 </script>
 
@@ -37,7 +38,7 @@ Trialled from Scratch - some duplicated
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
 * <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
-* <button onclick="('ap3sess') => delete_cookie">Delete ap3sess Cookie</button>
+* <button onclick="() => delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
 
 ### Test Links 
 
