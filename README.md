@@ -46,3 +46,12 @@ Trialled
 
 * <button class="TestLinkClass">A non navigating button with TestLinkClass</button>
 ---
+
+### Specific Capture Buttons
+
+* <button id="barWidget">Bar widget</button>
+* <button id="popupWidget">Popup widget</button>
+* <button id="notificationWidget">Notification widget</button>
+* <button id="takeoverWidget">Takeover widget</button>
+* <button id="bannerWidget">Banner widget</button>
+* <button id="spinWidget">Spin widget</button>
