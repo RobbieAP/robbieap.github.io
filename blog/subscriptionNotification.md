@@ -40,4 +40,4 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 </script>
 
 
-On Load, Once per session, or until they convert
+Prebuilt subscription on url that contains blog, Once per session, or until they convert
