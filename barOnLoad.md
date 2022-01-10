@@ -6,12 +6,19 @@ filename: barOnLoad.md
 
 <!-- Robs cookie deleter capture code -->
 <script>
+var runDeleteCookie = true;	
+	
+if(runCode){	
 let delete_cookie = function(name) {
     document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 	console.log("Deleted ", name, "cookie");
 };
 let cookies = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
 cookies.forEach((name) => delete_cookie(name));
+	
+	runDeleteCookie = false;
+	}
+	
 </script>
 
 <!-- Autopilot robert capture code -->
@@ -25,13 +32,6 @@ cookies.forEach((name) => delete_cookie(name));
 	});
 	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
-</script>
-
-<script>
-let delete_cookie = function(name) {
-    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-	console.log("Deleted ", name, "cookie");
-};
 </script>
 
 
