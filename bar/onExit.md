@@ -1,7 +1,7 @@
 ---
 title: Bar On Exit
 layout: template
-filename: barOnExit.md
+filename: onExit.md
 --- 
 
 <!-- Robs cookie deleter capture code -->
