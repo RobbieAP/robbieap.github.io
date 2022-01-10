@@ -11,6 +11,12 @@
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
 
+<script>
+let delete_cookie = function(name) {
+    document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+};
+</script>
+
 
 # Robs ap-widget-tester
 
@@ -28,9 +34,7 @@ Trialled from Scratch - some duplicated
 ---
 ### Remove Cookies
 
-<button onclick="() => {
-  document.cookie = ap3sess +'=; Path=/;';		 
-		 }">Delete Ap3Session Cookie</button>"
+<button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>"
 
 
 ### Test Links 
