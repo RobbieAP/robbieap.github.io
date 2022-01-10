@@ -1,5 +1,5 @@
 ---
-title: Banner On Exit
+title: Bar On Exit
 layout: template
 filename: barOnExit.md
 --- 
