@@ -21,6 +21,7 @@ filename: barOnLoad.md
 
 <!-- Robs cookie deleter capture code -->
 <script>
+	
 var runDeleteCookie = true;	
 	
 if(runDeleteCookie){	
@@ -29,7 +30,7 @@ let delete_cookie = function(name) {
 	console.log("Deleted ", name, "cookie");
 };
 let cookiesToDel = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
-cookiesToDel.forEach((name) => removeCookie(name));
+cookiesToDel.forEach((name) => delete_cookie(name));
 	
 	runDeleteCookie = false;
 	}
