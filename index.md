@@ -35,12 +35,13 @@ Trialled from Scratch - some duplicated
 
 
 ---
-### Remove Cookies
+## Remove Cookies
 
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
 * <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
 * <button onclick="delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
+
 
 ### Test Links 
 
@@ -73,6 +74,15 @@ Trialled from Scratch - some duplicated
 * <button id="takeoverWidget">Takeover widget</button>
 * <button id="bannerWidget">Banner widget</button>
 * <button id="spinWidget">Spin widget</button>
+
+### Bar - Scratch
+
+* <button href="/barOnLoad">Bar on page load</button>
+* <button href="/barOnTimer">Bar on timer</button>
+* <button href="/barOnExit">Bar on exit</button>
+* <button href="/barOnScroll">Bar on scroll</button>
+
+
 
 
 ### Embedded Form
