@@ -66,7 +66,7 @@ Trialled from Scratch - some duplicated
 * <button class="TestLinkClass">A non navigating button with TestLinkClass</button>
 ---
 
-### Specific Capture Buttons
+### Specific Capture Buttons - disabled for now
 
 * <button id="barWidget">Bar widget</button>
 * <button id="popupWidget">Popup widget</button>
@@ -75,19 +75,27 @@ Trialled from Scratch - some duplicated
 * <button id="bannerWidget">Banner widget</button>
 * <button id="spinWidget">Spin widget</button>
 
-### Bar - Scratch
+### Bar - Built from Scratch
 
-* [Bar on Load](barOnLoad.md)
-* [Bar on timer](barOnTimer.md)
-* [Bar on Exit](barOnExit.md)
-* [Bar on Scroll](barOnScroll.md)
+* [Bar on Load](bar/onLoad.md)
+* [Bar on timer](bar/onTimer.md)
+* [Bar on Exit](bar/onExit.md)
+* [Bar on Scroll](bar/onScroll.md)
 
-### Banner - Scratch
+### Banner - Built from Scratch
 
 * [Banner on Load](banner/onLoad.md)
 * [Banner on timer](banner/onTimer.md)
 * [Banner on Exit](banner/onExit.md)
 * [Banner on Scroll](banner/onScroll.md)
+
+### Popup - Built from Scratch TODO
+
+### Notification - Built from Scratch TODO
+
+### Takeover - Built from Scratch TODO
+
+### Spinner - Built from Scratch TODO
 
 
 
