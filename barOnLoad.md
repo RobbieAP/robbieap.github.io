@@ -23,7 +23,7 @@ filename: barOnLoad.md
 <script>
 var runDeleteCookie = true;	
 	
-if(runCode){	
+if(runDeleteCookie){	
 
 let cookiesToDel = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
 cookiesToDel.forEach((name) => removeCookie(name));
