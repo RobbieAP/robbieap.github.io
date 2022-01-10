@@ -89,29 +89,33 @@ Trialled from Scratch - some duplicated
 * [Banner on Exit](banner/onExit.md)
 * [Banner on Scroll](banner/onScroll.md)
 
-### Popup - Built from Scratch TODO
+### Popup - Built from Scratch 
 
 * [Popup on Load](popup/onLoad.md)
 * [Popup on timer](popup/onTimer.md)
 * [Popup on Exit](popup/onExit.md)
 * [Popup on Scroll](popup/onScroll.md)
 
-### Notification - Built from Scratch TODO
+### Notification - Built from Scratch 
 
 * [Notification on Load](notification/onLoad.md)
 * [Notification on timer](notification/onTimer.md)
 * [Notification on Exit](notification/onExit.md)
 * [Notification on Scroll](notification/onScroll.md)
 
-### Takeover - Built from Scratch TODO
+### Takeover - Built from Scratch 
 
 * [Takeover on Load](takeover/onLoad.md)
 * [Takeover on timer](takeover/onTimer.md)
 * [Takeover on Exit](takeover/onExit.md)
 * [Takeover on Scroll](takeover/onScroll.md)
 
-### Spinner - Built from Scratch TODO
+### Spinner - Built from Scratch 
 
+* [Spinner on Load](spin/onLoad.md)
+* [Spinner on timer](spin/onTimer.md)
+* [Spinner on Exit](spin/onExit.md)
+* [Spinner on Scroll](spin/onScroll.md)
 
 
 ### Embedded Form
