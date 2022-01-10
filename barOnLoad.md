@@ -1,5 +1,5 @@
 ---
-title: Banner On Load
+title: Bar On Load
 layout: template
 filename: barOnLoad.md
 --- 
