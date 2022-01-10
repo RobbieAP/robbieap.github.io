@@ -77,11 +77,17 @@ Trialled from Scratch - some duplicated
 
 ### Bar - Scratch
 
-* [Bar on load](barOnLoad.md)
-* <button href="/barOnTimer">Bar on timer</button>
-* <button href="/barOnExit">Bar on exit</button>
-* <button href="/barOnScroll">Bar on scroll</button>
+* [Bar on Load](barOnLoad.md)
+* [Bar on timer](barOnTimer.md)
+* [Bar on Exit](barOnExit.md)
+* [Bar on Scroll](barOnScroll.md)
 
+### Banner - Scratch
+
+* [Banner on Load](bannerOnLoad.md)
+* [Banner on timer](bannerOnTimer.md)
+* [Banner on Exit](bannerOnExit.md)
+* [Banner on Scroll](bannerOnScroll.md)
 
 
 
