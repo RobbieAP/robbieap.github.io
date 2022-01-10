@@ -1,3 +1,9 @@
+---
+title: Banner On Timer
+layout: template
+filename: widgetOnTimerBanner
+--- 
+
 <!-- Autopilot robert capture code -->
 <script>
 	window.ap3c = window.ap3c || {};
