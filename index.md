@@ -119,7 +119,7 @@ Trialled from Scratch - some duplicated
 
 ### Prebuilt Widgets
 
-* [Blog Subscribe url filename contains blog ](prebuilt/blog.md)
+* [Blog Subscribe url filename contains blg ](prebuilt/blg.md)
 * [Blog Subscribe url path contains blog](blog/subscribe.md)
 * [Covid 19 Bar](prebuilt/covid.md)
 * [Subscription Notification url contains blog](blog/subscriptionNotification.md)
