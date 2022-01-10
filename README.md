@@ -25,8 +25,14 @@ Trialled from Scratch - some duplicated
 * Embedded form all fields
 
 
-
 ---
+### Remove Cookies
+
+<button onclick="() => {
+  document.cookie = ap3sess +'=; Path=/;';		 
+		 }">Delete Ap3Session Cookie</button>"
+
+
 ### Test Links 
 
 ~~~
