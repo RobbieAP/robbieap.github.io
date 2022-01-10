@@ -1,5 +1,5 @@
 ---
-title: Bar On Scroll
+title: On Scroll
 layout: template
 filename: onScroll.md
 --- 
@@ -39,15 +39,7 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
 
-<script>
-let delete_cookie = function(name) {
-    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-	console.log("Deleted ", name, "cookie");
-};
-</script>
-
-
-### Bar on 60% scroll, Once per session, or until they convert
+### on 60% scroll, Once per session, or until they convert
 
 
 ## Dummy text
@@ -129,6 +121,42 @@ Bear claw pastry macaroon muffin cookie macaroon cotton candy wafer. Liquorice c
 Candy jelly beans marshmallow gummi bears wafer cheesecake macaroon. Tart cake soufflé sweet ice cream. Dragée dessert dragée candy jelly beans liquorice carrot cake. Pie dessert jelly jelly-o sesame snaps cake pie. Gummies cake chupa chups marshmallow muffin cake cupcake cupcake.
 
 Toffee macaroon bear claw gingerbread pie toffee chocolate bar tart. Chocolate danish dessert chocolate cake powder. Chocolate cake marzipan pudding liquorice jelly-o. Muffin cake chupa chups candy jelly-o bonbon pudding croissant brownie. Sugar plum ice cream jujubes dragée apple pie chocolate bar jelly-o. Lemon drops pastry jelly marzipan biscuit gummi bears chocolate cake. Chupa chups cake pudding topping cupcake sesame snaps. Lollipop gingerbread sweet muffin gingerbread sweet roll. Muffin shortbread jelly-o wafer icing.
+
+### and more and more
+
+Wafer pastry caramels bear claw tiramisu tootsie roll. Liquorice cupcake gummies powder candy canes donut jelly-o. 
+Powder jelly jelly beans brownie caramels. Chocolate jelly-o wafer carrot cake chupa chups gummi bears. 
+Toffee shortbread sugar plum croissant brownie. Jujubes biscuit marshmallow powder muffin cotton candy. 
+Cheesecake lemon drops soufflé shortbread chocolate bar cake cheesecake chocolate bar chupa chups. 
+Chupa chups dessert marzipan marshmallow ice cream tiramisu pie chocolate dessert. Toffee sweet roll muffin candy canes chocolate caramels ice cream apple pie. Brownie oat cake donut biscuit jelly donut dessert tart. Topping brownie croissant cotton candy macaroon dragée. Bonbon cake chocolate cake marshmallow ice cream sweet roll donut jelly beans. Muffin fruitcake halvah pudding brownie jujubes dessert.
+
+
+### and more and more
+
+Wafer pastry caramels bear claw tiramisu tootsie roll. Liquorice cupcake gummies powder candy canes donut jelly-o. 
+Powder jelly jelly beans brownie caramels. Chocolate jelly-o wafer carrot cake chupa chups gummi bears. 
+Toffee shortbread sugar plum croissant brownie. Jujubes biscuit marshmallow powder muffin cotton candy. 
+Cheesecake lemon drops soufflé shortbread chocolate bar cake cheesecake chocolate bar chupa chups. 
+Chupa chups dessert marzipan marshmallow ice cream tiramisu pie chocolate dessert. Toffee sweet roll muffin candy canes chocolate caramels ice cream apple pie. Brownie oat cake donut biscuit jelly donut dessert tart. Topping brownie croissant cotton candy macaroon dragée. Bonbon cake chocolate cake marshmallow ice cream sweet roll donut jelly beans. Muffin fruitcake halvah pudding brownie jujubes dessert.
+
+
+### and more and more
+
+Wafer pastry caramels bear claw tiramisu tootsie roll. Liquorice cupcake gummies powder candy canes donut jelly-o. 
+Powder jelly jelly beans brownie caramels. Chocolate jelly-o wafer carrot cake chupa chups gummi bears. 
+Toffee shortbread sugar plum croissant brownie. Jujubes biscuit marshmallow powder muffin cotton candy. 
+Cheesecake lemon drops soufflé shortbread chocolate bar cake cheesecake chocolate bar chupa chups. 
+Chupa chups dessert marzipan marshmallow ice cream tiramisu pie chocolate dessert. Toffee sweet roll muffin candy canes chocolate caramels ice cream apple pie. Brownie oat cake donut biscuit jelly donut dessert tart. Topping brownie croissant cotton candy macaroon dragée. Bonbon cake chocolate cake marshmallow ice cream sweet roll donut jelly beans. Muffin fruitcake halvah pudding brownie jujubes dessert.
+
+
+### and more and more
+
+Wafer pastry caramels bear claw tiramisu tootsie roll. Liquorice cupcake gummies powder candy canes donut jelly-o. 
+Powder jelly jelly beans brownie caramels. Chocolate jelly-o wafer carrot cake chupa chups gummi bears. 
+Toffee shortbread sugar plum croissant brownie. Jujubes biscuit marshmallow powder muffin cotton candy. 
+Cheesecake lemon drops soufflé shortbread chocolate bar cake cheesecake chocolate bar chupa chups. 
+Chupa chups dessert marzipan marshmallow ice cream tiramisu pie chocolate dessert. Toffee sweet roll muffin candy canes chocolate caramels ice cream apple pie. Brownie oat cake donut biscuit jelly donut dessert tart. Topping brownie croissant cotton candy macaroon dragée. Bonbon cake chocolate cake marshmallow ice cream sweet roll donut jelly beans. Muffin fruitcake halvah pudding brownie jujubes dessert.
+
 
 ### and more and more
 
