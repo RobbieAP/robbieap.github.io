@@ -119,6 +119,8 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 * [Subscription Notification url contains blog](blog/subscriptionNotification.md)
 * [Subscribe Bar](prebuilt/subscribeBar.md)
 * [Subscribe Newsletter](prebuilt/subscribeNewsletter.md)
+
+Disabled account not setup
 * [SMS Embeddable Form](prebuilt/smsEmbeddableForm.md)
 * [SMS Notification](prebuilt/smsNotification.md)
 * [SMS Popup](prebuilt/smsPopup.md)
@@ -127,7 +129,7 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 
 * [Customer Satisfaciton Survey](prebuilt/customerSatisfactionSurvey.md)
 * [Customer Satisfaciton Survey Custom](prebuilt/customerSatisfactionSurveyCustom.md)
-* [Is Content Helpful?](prebuilt/isContentHelpful.md)
+* [Is Content Helpful?](prebuilt/isContentHelpful.md) 
 
 
 ### Embedded Form
