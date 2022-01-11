@@ -23,21 +23,13 @@ let delete_cookie = function(name) {
 
 # Robs ap-widget-tester
 
-Trialled from Scratch - some duplicated
-* Bar Widget Time delay
-* Popup on exit
-* Notification on Click Id, Class
-* Takeover on Click Class
-* Banner 10 Secs
-* Spin Win Id
-* Embedded form
-* Embedded form all fields
+Note: Most of the links will contain code to delete the set cookies so appearing on each click is expected behaviour
 
 
 ---
 ## Remove Cookies
 
-* <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button>
+* <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
 * <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
 * <button onclick="delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
