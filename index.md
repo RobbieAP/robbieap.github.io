@@ -58,7 +58,7 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 * <button class="TestLinkClass">A non navigating button with TestLinkClass</button>
 ---
 
-### Specific Capture Buttons - disabled for now
+### Specific Capture Buttons 
 
 * <button id="barWidget">Bar widget</button>
 * <button id="popupWidget">Popup widget</button>
