@@ -111,6 +111,8 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 
 ### Prebuilt Widgets
 
+#### Quick Start
+
 * [Blog Subscribe url filename contains blg ](prebuilt/blg.md)
 * [Blog Subscribe url path contains blog](blog/subscribe.md)
 * [Covid 19 Bar](prebuilt/covid.md)
@@ -121,6 +123,11 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 * [SMS Notification](prebuilt/smsNotification.md)
 * [SMS Popup](prebuilt/smsPopup.md)
 
+#### Feedback & Surveys
+
+* [Customer Satisfaciton Survey](prebuilt/customerSatisfactionSurvey.md)
+* [Customer Satisfaciton Survey Custom](prebuilt/customerSatisfactionSurveyCustom.md)
+* [Is Content Helpful?](prebuilt/isContentHelpful.md)
 
 
 ### Embedded Form
