@@ -6,8 +6,9 @@ filename: mandatoryMultiSelect.md
 
 <!-- Robs cookie deleter capture code -->
 <script>
-	
-var runDeleteCookie = true;	
+
+<!-- Disabled for testing -->
+var runDeleteCookie = false;	
 	
 if(runDeleteCookie){	
 	
