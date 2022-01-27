@@ -67,6 +67,11 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 * <button id="bannerWidget">Banner widget</button>
 * <button id="spinWidget">Spin widget</button>
 
+### Capture Forms
+* [All Mandatory](form/allMandatory.md)
+* [Mandatory Multiselect Embedded form](form/mandatoryMultiSelect.md)
+* [Popup with mandatory multi select form](form/popupWithMandatoryMultiSelectForm.md)
+
 ### Bar - Built from Scratch
 
 * [Bar on Load](bar/onLoad.md)
