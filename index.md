@@ -1,5 +1,55 @@
 
 
+const https = require('https');
+
+const data = `{
+	"activities": [
+		{
+			"activity_id": "act:cm:aaaaa-activity",
+			"attributes": {
+				"str:cm:something": "example string value"
+			},
+			"fields": {
+				"str::email": "contact@email.com"
+			},
+			"location": {
+				"source_ip": "172.217.4.1",
+				"custom": null,
+				"address": null
+			}
+		}
+	],
+	"merge_by": [
+		"str::email"
+	]
+}`;
+
+const options = {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'X-Api-Key': '{{ APIKey }}',
+        'Content-Length': data.length
+    }
+};
+
+const req = https.request('https://api-master.ap3api.com/v1/activities/create', options, res => {
+    res.on('data', d => {
+        process.stdout.write(d);
+    });
+});
+
+req.on('error', error => {
+    console.error(error);
+});
+req.write(data);
+req.end();
+
+
+
+
+
+
 <!-- Autopilot robert capture code -->
 <script>
 	window.ap3c = window.ap3c || {};
