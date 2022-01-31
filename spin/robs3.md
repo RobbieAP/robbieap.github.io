@@ -39,5 +39,4 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
 
-
 On Load, Always, For robs instance 3
