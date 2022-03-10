@@ -50,6 +50,7 @@ Note: Most of the links will contain code to delete the set cookies so appearing
 * <a href="javascript:{}" class="TestLinkClass"> This is a link with a javascript {} tag </a>
 * <a href="http://www.google.com" class="TestLinkClass">This is a regular link to google</a>
 
+<span class="TestLinkClass">A span of text</span>
 
 ### Test Buttons
 
