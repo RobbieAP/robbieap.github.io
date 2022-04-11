@@ -22,6 +22,7 @@ let delete_cookie = function(name) {
 # Robs ap-widget-tester
 
 Note: Most of the links will contain code to delete the set cookies so appearing on each click is expected behaviour
+Some of these links will automatically clear cookies, most are probalby turned off if they don't work due to running out of credits
 
 
 ---
