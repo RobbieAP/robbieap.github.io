@@ -80,10 +80,10 @@ https://robbieap.github.io/trackedform/primarytrackedform.html
 <input type="password" id="password" name="password"><br>
 
 <label for="radio1">Radio1:</label><br>
-<input type="radio1" id="radio1" name="radio"><br>
+<input type="radio" id="radio1" name="radio"><br>
 
 <label for="radio2">Radio2:</label><br>
-<input type="radio2" id="radio2" name="radio"><br>
+<input type="radio" id="radio2" name="radio"><br>
 
 <label for="range">A Range slider:</label><br>
 <input type="range" id="range" name="range"><br>
