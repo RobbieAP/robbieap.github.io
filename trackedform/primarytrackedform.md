@@ -16,33 +16,88 @@ filename: primarytrackedform.md
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
 
-
-# A tracked form example
-
-
-<!-- Robs cookie deleter capture code -->
-<!-- <script>
-	
-var runDeleteCookie = true;	
-	
-if(runDeleteCookie){	
-	
-let COOKIESTODELETE = ["ap3c", "ap3converted", "ap3dm", "ap3sess"];
-	
+<script>
 let delete_cookie = function(name) {
     document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 	console.log("Deleted ", name, "cookie");
 };
-
-COOKIESTODELETE.forEach((name) => delete_cookie(name));
-	
-	runDeleteCookie = false;
-	}
-	
-</script> -->
+</script>
 
 
+https://robbieap.github.io/trackedform/primarytrackedform.html
+# A tracked form example
+
+* <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
+* <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
+* <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
+* <button onclick="delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
 
 
+
+
+<fieldset>
+    <legend>Select a maintenance drone:</legend>
+<form action="">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Email"><br>
+  <label for="phone">Phone:</label><br>
+  <input type="tel"><br>
+
+  <label for="color">Fav Colour:</label><br>
+  <input type="color" id="color" name="color">
+
+  <label for="checkbox">Check this box:</label><br>
+  <input type="checkbox" id="checkbox" name="checkbox">
+
+<label for="date">A Date:</label><br>
+<input type="date" id="date" name="date">
+
+<label for="datetime">A DateTime:</label><br>
+<input type="datetime-local" id="datetime" name="datetime">
+
+<label for="hidden">A Hiddden field:</label><br>
+<input type="hidden" id="hidden" name="hidden" value="hiddenvalue">
+
+<label for="image">An Image:</label><br>
+<input type="image" id="image" name="image">
+
+<label for="month">A Month:</label><br>
+<input type="month" id="month" name="month">
+
+<label for="week">A week:</label><br>
+<input type="week" name="week" id="week">
+
+<label for="number">A Number:</label><br>
+<input type="number" id="number" name="number>
+
+<label for="password">A Password:</label><br>
+<input type="password" id="password" name="password">
+
+<label for="radio1">Radio1:</label><br>
+<input type="radio1" id="radio1" name="radio">
+
+<label for="radio2">Radio2:</label><br>
+<input type="radio2" id="radio2" name="radio">
+
+<label for="range">A Range slider:</label><br>
+<input type="range" id="range" name="range">
+
+<label for="text">A Textfield:</label><br>
+<input type="text" id="text", name="text">
+
+<label for="time">A Time input:</label><br>
+<input type="time" id="time" name="time">
+
+<label for="url">URL:</label><br>
+<input type="url" id="url" name="url">
+ 
+  <input type="submit" value="Submit">
+</form> 
+
+</fieldset>
 
 
