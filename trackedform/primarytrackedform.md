@@ -59,11 +59,13 @@ https://robbieap.github.io/trackedform/primarytrackedform.html
 <label for="datetime">A DateTime:</label><br>
 <input type="datetime-local" id="datetime" name="datetime"><br>
 
-<label for="hidden">A Hiddden field:</label><br>
+<label for="hidden">A Hidden field:</label><br>
 <input type="hidden" id="hidden" name="hidden" value="hiddenvalue"><br>
 
 <label for="image">An Image:</label><br>
-<input type="image" id="image" name="image"><br>
+<input type="image" id="image" name="image"><br><br>
+
+
 
 <label for="month">A Month:</label><br>
 <input type="month" id="month" name="month"><br>
@@ -87,7 +89,7 @@ https://robbieap.github.io/trackedform/primarytrackedform.html
 <input type="range" id="range" name="range"><br>
 
 <label for="text">A Textfield:</label><br>
-<input type="text" id="text", name="text"><br>
+<input type="text" id="text" name="text"><br>
 
 <label for="time">A Time input:</label><br>
 <input type="time" id="time" name="time"><br>
