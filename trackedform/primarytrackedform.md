@@ -36,7 +36,7 @@ https://robbieap.github.io/trackedform/primarytrackedform.html
 
 
 <fieldset>
-    <legend>Select a maintenance drone:</legend>
+    <legend>Fill out the form:</legend>
 <form action="">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" placeholder="First Name"><br>
@@ -48,52 +48,52 @@ https://robbieap.github.io/trackedform/primarytrackedform.html
   <input type="tel"><br>
 
   <label for="color">Fav Colour:</label><br>
-  <input type="color" id="color" name="color">
+  <input type="color" id="color" name="color"><br>
 
   <label for="checkbox">Check this box:</label><br>
-  <input type="checkbox" id="checkbox" name="checkbox">
+  <input type="checkbox" id="checkbox" name="checkbox"><br>
 
 <label for="date">A Date:</label><br>
-<input type="date" id="date" name="date">
+<input type="date" id="date" name="date"><br>
 
 <label for="datetime">A DateTime:</label><br>
-<input type="datetime-local" id="datetime" name="datetime">
+<input type="datetime-local" id="datetime" name="datetime"><br>
 
 <label for="hidden">A Hiddden field:</label><br>
-<input type="hidden" id="hidden" name="hidden" value="hiddenvalue">
+<input type="hidden" id="hidden" name="hidden" value="hiddenvalue"><br>
 
 <label for="image">An Image:</label><br>
-<input type="image" id="image" name="image">
+<input type="image" id="image" name="image"><br>
 
 <label for="month">A Month:</label><br>
-<input type="month" id="month" name="month">
+<input type="month" id="month" name="month"><br>
 
 <label for="week">A week:</label><br>
-<input type="week" name="week" id="week">
+<input type="week" name="week" id="week"><br>
 
 <label for="number">A Number:</label><br>
-<input type="number" id="number" name="number>
+<input type="number" id="number" name="number"><br>
 
 <label for="password">A Password:</label><br>
-<input type="password" id="password" name="password">
+<input type="password" id="password" name="password"><br>
 
 <label for="radio1">Radio1:</label><br>
-<input type="radio1" id="radio1" name="radio">
+<input type="radio1" id="radio1" name="radio"><br>
 
 <label for="radio2">Radio2:</label><br>
-<input type="radio2" id="radio2" name="radio">
+<input type="radio2" id="radio2" name="radio"><br>
 
 <label for="range">A Range slider:</label><br>
-<input type="range" id="range" name="range">
+<input type="range" id="range" name="range"><br>
 
 <label for="text">A Textfield:</label><br>
-<input type="text" id="text", name="text">
+<input type="text" id="text", name="text"><br>
 
 <label for="time">A Time input:</label><br>
-<input type="time" id="time" name="time">
+<input type="time" id="time" name="time"><br>
 
 <label for="url">URL:</label><br>
-<input type="url" id="url" name="url">
+<input type="url" id="url" name="url"><br><br>
  
   <input type="submit" value="Submit">
 </form> 
