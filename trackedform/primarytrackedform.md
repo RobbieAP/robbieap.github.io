@@ -24,7 +24,6 @@ let delete_cookie = function(name) {
 </script>
 
 
-https://robbieap.github.io/trackedform/primarytrackedform.html
 # A tracked form example
 
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
