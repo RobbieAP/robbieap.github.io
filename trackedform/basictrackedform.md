@@ -44,6 +44,7 @@ let delete_cookie = function(name) {
   <input type="email" id="email" name="email" placeholder="Email"><br>
   <label for="phone">Phone (tel):</label><br>
   <input type="tel"><br>
+   <input type="submit" value="Submit">
 </form> 
 
 </fieldset>
