@@ -1,20 +1,8 @@
 ---
-title: An example Basic tracked Form
+title: An example Basic tracked Form with no capture script
 layout: template
-filename: basictrackedform.md
+filename: basictrackedformnoscript.md
 --- 
-<!-- Autopilot robert capture code -->
-<script>
-	window.ap3c = window.ap3c || {};
-	var ap3c = window.ap3c;
-	ap3c.cmd = ap3c.cmd || [];
-	ap3c.cmd.push(function() {
-		ap3c.init('YdOVzkqoVlq0G5Pscm9iZXJ0', 'https://capture-api-master.stgautopilotapp.com/');
-		ap3c.track({v: 0});
-	});
-	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
-	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
-</script>
 
 <script>
 let delete_cookie = function(name) {
@@ -23,7 +11,7 @@ let delete_cookie = function(name) {
 };
 </script>
 
-# A tracked form example
+# A tracked form that has no capture script
 
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
@@ -43,7 +31,7 @@ let delete_cookie = function(name) {
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" placeholder="Email"><br>
   <label for="phone">Phone (tel):</label><br>
-  <input type="tel" id="phone" name="phone"><br>
+  <input type="tel"><br>
    <input type="submit" value="Submit">
 </form> 
 
