@@ -129,6 +129,11 @@ Some of these links will automatically clear cookies, most are probalby turned o
 
 * [Basic Tracked Form](trackedform/basictrackedform.md)
 * [Tracked Form with all inputs](trackedform/primarytrackedform.md)
+* [Two forms on page - Tracked Form](trackedform/basictrackedform.md)
+## Not expected to work - These are for testing
+* [Blank page with onnly a capture script no form for testing](trackedform/capturenoform.md)
+* [Basic Tracked Form with no script](trackedform/basictrackedformnoscript.md)
+
 
 #### Quick Start
 
