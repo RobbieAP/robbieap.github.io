@@ -36,10 +36,10 @@ let delete_cookie = function(name) {
 <fieldset>
     <legend>Fill out the Basic form that has no labels:</legend>
 <form id="baasictrackedform" action="">
-  <input type="text" id="fname" name="fname" placeholder="First Name"/><br>
-  <input type="text" id="lname" name="lname" placeholder="Last Name"/><br>
-  <input type="email" id="email" name="email" placeholder="Email"/><br>
-  <input type="tel" id="phone" name="phone" placeholder="Phone"/><br>
+  <input type="text" id="fname"  placeholder="First Name"/><br>
+  <input type="text" id="lname"  placeholder="Last Name"/><br>
+  <input type="email" id="email"  placeholder="Email"/><br>
+  <input type="tel" id="phone"  placeholder="Phone"/><br>
    <input id="submit" type="submit" value="Submit"/>
 </form> 
 
