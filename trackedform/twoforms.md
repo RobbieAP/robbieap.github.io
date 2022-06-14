@@ -61,6 +61,13 @@ let delete_cookie = function(name) {
   <input type="email" id="email2" name="email2" placeholder="Email"><br>
   <label for="form2uniquetext">Form2 Unique Text</label><br>
   <input type="text" id="form2uniquetext" name="form2uniquetext"><br>
+  <br>
+
+  <input type="radio" id="yes" name="radioselection" value="yes">
+  <label for="yes">yes</label><br>  
+  <input type="radio" id="no" name="radioselection" value="no">
+  <label for="no">no</label><br>
+
    <input type="submit" value="Submit">
 </form> 
 
