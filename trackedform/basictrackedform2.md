@@ -1,7 +1,7 @@
 ---
-title: An example Basic tracked Form with no labels
+title: An example Basic tracked Form duplicate
 layout: template
-filename: tfjustname.md
+filename: basictrackedform.md
 --- 
 <!-- Autopilot robert capture code -->
 <script>
@@ -23,7 +23,7 @@ let delete_cookie = function(name) {
 };
 </script>
 
-# A tracked form example that has no ids no labels just a name
+# A copy of basic tracked form with differennt url but same formid
 
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
@@ -34,12 +34,16 @@ let delete_cookie = function(name) {
 
 
 <fieldset>
-    <legend>Fill out the Basic form that has no labels:</legend>
-<form id="formjustname" action="">
-  <input type="text" name="fname" placeholder="First Name"/><br>
-  <input type="text" name="lname" placeholder="Last Name"/><br>
-  <input type="email" name="email" placeholder="Email"/><br>
-  <input type="tel" name="phone" placeholder="Phone"/><br>
+    <legend>Fill out the Basic form:</legend>
+<form id="basictrackedform" action="">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name"/><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"/><br>
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Email"/><br>
+  <label for="phone">Phone (tel):</label><br>
+  <input type="tel" id="phone" name="phone"/><br>
    <input id="submit" type="submit" value="Submit"/>
 </form> 
 
