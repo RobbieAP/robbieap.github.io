@@ -44,13 +44,13 @@ let delete_cookie = function(name) {
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" placeholder="Email"/><br>
   <label for="phone">Phone:</label><br>
-  <input type="tel" id="phone" name="email"><br>
+  <input type="tel" id="phone" name="phhone"><br>
 
   <label for="color">Fav Colour:</label><br>
   <input type="color" id="color" name="color"/><br>
 
   <label for="checkbox">Check this box:</label><br>
-  <input type="checkbox" id="checkbox" name="checkbox"/><br>
+  <input type="checkbox" id="checkbox" name="checkbox" value="checked!"/><br>
 
 <label for="date">A Date:</label><br>
 <input type="date" id="date" name="date"/><br>
@@ -78,11 +78,11 @@ let delete_cookie = function(name) {
 <label for="password">A Password:</label><br>
 <input type="password" id="password" name="password"/><br>
 
-<label for="radio1">Radio1:</label><br>
-<input type="radio" id="radio1" name="radio"/><br>
+<label for="radio1">True</label><br>
+<input type="radio" id="radio1" name="radio" value="true"/><br>
 
-<label for="radio2">Radio2:</label><br>
-<input type="radio" id="radio2" name="radio"/><br>
+<label for="radio2">False</label><br>
+<input type="radio" id="radio2" name="radio" value="false"/><br>
 
 <label for="range">A Range slider:</label><br>
 <input type="range" id="range" name="range"/><br>
