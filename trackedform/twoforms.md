@@ -43,7 +43,7 @@ let delete_cookie = function(name) {
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" placeholder="Email"><br>
   <label for="phone">Phone (tel):</label><br>
-  <input type="tel"><br>
+  <input type="tel" id="phone", name="phone"><br>
    <input type="submit" value="Submit">
 </form> 
 
@@ -53,14 +53,14 @@ let delete_cookie = function(name) {
 <fieldset id="form2">
     <legend>Fill out form2:</legend>
 <form action="">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="First Name"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
-  <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" placeholder="Email"><br>
+  <label for="fname2">First name:</label><br>
+  <input type="text" id="fname2" name="fname2" placeholder="First Name"><br>
+  <label for="lname2">Last name:</label><br>
+  <input type="text" id="lname2" name="lname2" placeholder="Last Name"><br>
+  <label for="email2">Email</label><br>
+  <input type="email" id="email2" name="email2" placeholder="Email"><br>
   <label for="form2uniquetext">Form2 Unique Text</label><br>
-  <input type="text" id="form2uniquetext"><br>
+  <input type="text" id="form2uniquetext" name="form2uniquetext"><br>
    <input type="submit" value="Submit">
 </form> 
 
