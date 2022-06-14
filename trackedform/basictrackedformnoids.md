@@ -23,7 +23,7 @@ let delete_cookie = function(name) {
 };
 </script>
 
-# A tracked form example
+# A tracked form example where form or inputs have no id. (Fieldset does)
 
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
