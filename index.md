@@ -128,6 +128,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 ### TRACKED FORMS
 
 * [Basic Tracked Form](trackedform/basictrackedform.md)
+* [Basic Tracked Form - duplicate different url](trackedform/basictrackedform2.md)
 * [Tracked Form with all inputs](trackedform/primarytrackedform.md)
 * [Two forms on page - Tracked Form](trackedform/basictrackedform.md)
 
