@@ -25,14 +25,14 @@ let delete_cookie = function(name) {
     <legend>Fill out the Basic form:</legend>
 <form action="">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name"/><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"/><br>
   <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" placeholder="Email"><br>
+  <input type="email" id="email" name="email" placeholder="Email"/><br>
   <label for="phone">Phone (tel):</label><br>
-  <input type="tel"><br>
-   <input type="submit" value="Submit">
+  <input type="tel" id="phone" name="phone"/><br>
+   <input type="submit" value="Submit"/>
 </form> 
 
 </fieldset>

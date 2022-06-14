@@ -38,65 +38,65 @@ let delete_cookie = function(name) {
     <legend>Fill out the form:</legend>
 <form action="">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name"/><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"/><br>
   <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" placeholder="Email"><br>
+  <input type="email" id="email" name="email" placeholder="Email"/><br>
   <label for="phone">Phone:</label><br>
-  <input type="tel"><br>
+  <input type="tel" id="phone" name="email"><br>
 
   <label for="color">Fav Colour:</label><br>
-  <input type="color" id="color" name="color"><br>
+  <input type="color" id="color" name="color"/><br>
 
   <label for="checkbox">Check this box:</label><br>
-  <input type="checkbox" id="checkbox" name="checkbox"><br>
+  <input type="checkbox" id="checkbox" name="checkbox"/><br>
 
 <label for="date">A Date:</label><br>
-<input type="date" id="date" name="date"><br>
+<input type="date" id="date" name="date"/><br>
 
 <label for="datetime">A DateTime:</label><br>
-<input type="datetime-local" id="datetime" name="datetime"><br>
+<input type="datetime-local" id="datetime" name="datetime"/><br>
 
 <label for="hidden">A Hidden field:</label><br>
-<input type="hidden" id="hidden" name="hidden" value="hiddenvalue"><br>
+<input type="hidden" id="hidden" name="hidden" value="hiddenvalue"/><br>
 
 <label for="image">An Image:</label><br>
-<input type="image" id="image" name="image"><br><br>
+<input type="image" id="image" name="image"/><br><br>
 
 
 
 <label for="month">A Month:</label><br>
-<input type="month" id="month" name="month"><br>
+<input type="month" id="month" name="month"/><br>
 
 <label for="week">A week:</label><br>
-<input type="week" name="week" id="week"><br>
+<input type="week" name="week" id="week"/><br>
 
 <label for="number">A Number:</label><br>
-<input type="number" id="number" name="number"><br>
+<input type="number" id="number" name="number"/><br>
 
 <label for="password">A Password:</label><br>
-<input type="password" id="password" name="password"><br>
+<input type="password" id="password" name="password"/><br>
 
 <label for="radio1">Radio1:</label><br>
-<input type="radio" id="radio1" name="radio"><br>
+<input type="radio" id="radio1" name="radio"/><br>
 
 <label for="radio2">Radio2:</label><br>
-<input type="radio" id="radio2" name="radio"><br>
+<input type="radio" id="radio2" name="radio"/><br>
 
 <label for="range">A Range slider:</label><br>
-<input type="range" id="range" name="range"><br>
+<input type="range" id="range" name="range"/><br>
 
 <label for="text">A Textfield:</label><br>
-<input type="text" id="text" name="text"><br>
+<input type="text" id="text" name="text"/><br>
 
 <label for="time">A Time input:</label><br>
-<input type="time" id="time" name="time"><br>
+<input type="time" id="time" name="time"/><br>
 
 <label for="url">URL:</label><br>
-<input type="url" id="url" name="url"><br><br>
+<input type="url" id="url" name="url"/><br><br>
  
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit"/>
 </form> 
 
 </fieldset>
