@@ -61,10 +61,6 @@ let delete_cookie = function(name) {
 <label for="hidden">A Hidden field:</label><br>
 <input type="hidden" id="hidden" name="hidden" value="hiddenvalue"/><br>
 
-<label for="image">An Image:</label><br>
-<input type="image" id="image" name="image"/><br><br>
-
-
 
 <label for="month">A Month:</label><br>
 <input type="month" id="month" name="month"/><br>
