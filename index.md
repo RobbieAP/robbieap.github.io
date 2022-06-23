@@ -133,7 +133,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Two forms on page - Tracked Form](trackedform/twoforms.md)
 * [Unique Tracked Form](trackedform/uniqueform.md)
 * [Another basic tracked Form](trackedform/basictrackedform3.md)
-* [A basic tracked Form that redirects to google on submit](trackedform/tfredirected.md)
+* [A basic tracked Form that redirects on submit](trackedform/tfredirected.md)
 
 
 #### Not expected to work - These are for testing
