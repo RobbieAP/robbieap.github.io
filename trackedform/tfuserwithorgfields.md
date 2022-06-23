@@ -1,7 +1,7 @@
 ---
-title: An example tracked form for org fields
+title: An example Basic tracked Form or organizations
 layout: template
-filename: tforgfields.md
+filename: tfuserwithorgfields.md
 --- 
 <!-- Autopilot robert capture code -->
 <script>
@@ -23,7 +23,7 @@ let delete_cookie = function(name) {
 };
 </script>
 
-# A tracked form example that has org type fields only
+# A tracked form example that has a mixutre of fields to use with customer and custom org fields
 
 * <button onclick="delete_cookie('ap3c')">Delete ap3c Cookie</button> <--- will be set each time no point
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
@@ -34,17 +34,19 @@ let delete_cookie = function(name) {
 
 
 <fieldset>
-    <legend>These should be mapped to org fields:</legend>
-<form id="orgform" action="">
-  <label for="orgname">Org Name:</label><br>
-  <input type="text" id="orgname" name="Org name" placeholder="Org Name"/><br>
-  <label for="industry">Industry:</label><br>
-  <input type="text" id="industry" name="Industry" placeholder="Industry"/><br>
-  <label for="website">Website</label><br>
-  <input type="email" id="website" name="Website" placeholder="Website"/><br>
-  <label for="text">Generic Text:</label><br>
-  <input type="text" id="text" name="Generic Text"/><br>
-   <input id="submitorgform" type="submit" value="Submit"/>
+    <legend>Fill out the Basic form:</legend>
+<form id="basictrackedformwithorg" action="">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name"/><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"/><br>
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Email"/><br>
+    <label for="orgf1">Some Org field</label><br>
+  <input type="text" id="orgf1" name="Generic Org Text Field" placeholder="Some Generic Text"/><br>
+   <label for="orgfunique">Unique Ident for Org</label><br>
+  <input type="text" id="orgfunique" name="Unique Org Field" placeholder="The unique ident for org fields"/><br>
+   <input id="submitorg2" type="submit" value="Submit"/>
 </form> 
 
 </fieldset>

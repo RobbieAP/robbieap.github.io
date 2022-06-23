@@ -134,7 +134,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Unique Tracked Form](trackedform/uniqueform.md)
 * [Another basic tracked Form](trackedform/basictrackedform3.md)
 * [A basic tracked Form that redirects on submit](trackedform/tfredirected.md)
-
+* [Form that also has org fields](trackedform/tfuserwithorgfields.md)
 
 #### Not expected to work - These are for testing
 
@@ -147,7 +147,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Basic Tracked Form with only name attribute](trackedform/tfjustname.md)
 * [Basic Tracked Form with no unique fields e.g email phone](trackedform/tfnounique.md)
 * [Basic Tracked Form with script from a different account](trackedform/tfdiffaccountscript.md)
-* [Tracked form to be used with org fields](trackedform/tforgfields.md)
+* [Tracked form that has org fields](trackedform/tforgfields.md)
 
 
 #### Quick Start
