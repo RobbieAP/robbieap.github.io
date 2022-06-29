@@ -34,7 +34,7 @@ let delete_cookie = function(name) {
 
 
 
-<fieldset>
+<fieldset id="fieldset1">
     <legend>Fill out the Basic form:</legend>
 <form id="basictrackedformrsb" action="">
   <label for="fnamersb">First name:</label><br>
@@ -47,11 +47,11 @@ let delete_cookie = function(name) {
   <input type="tel" id="phone" name="phone"/><br>
    <input id="submitrsb" type="submit" value="Submit"/>
 </form> 
+</fieldset>
 
 
 
-
-<fieldset>
+<fieldset id="fieldset2">
     <legend>Another form:</legend>
 <form id="FormRobsSandbox" action="">
   <label for="fnamersb">First name:</label><br>
