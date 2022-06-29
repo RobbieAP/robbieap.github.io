@@ -36,9 +36,9 @@ let delete_cookie = function(name) {
 <fieldset>
     <legend>A basic form to fillout:</legend>
 <form id="basictrackedform" action="">
-  <label for="decimal">First name:</label><br>
+  <label for="decimal">Decimal - textfield:</label><br>
   <input type="text" id="decimal" name="Decimal Text" placeholder="0.05"/><br>
-  <label for="currency">Last name:</label><br>
+  <label for="currency">Currency - Number field:</label><br>
   <input type="number" id="currency" name="Currency Number"/><br>
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" placeholder="Email"/><br>
