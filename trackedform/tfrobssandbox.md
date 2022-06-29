@@ -48,6 +48,29 @@ let delete_cookie = function(name) {
    <input id="submitrsb" type="submit" value="Submit"/>
 </form> 
 
+
+
+
+<fieldset>
+    <legend>Another form:</legend>
+<form id="FormRobsSandbox" action="">
+  <label for="fnamersb">First name:</label><br>
+  <input type="text" id="fnamersb" name="fname" placeholder="First Name"/><br>
+  <label for="lnamersb">Last name:</label><br>
+  <input type="text" id="lnamersb" name="lname" placeholder="Last Name"/><br>
+  <label for="emailrsb">Email</label><br>
+  <input type="email" id="emailrsb" name="email" placeholder="Email"/><br>
+    <label for="orgrsb">Some Org field</label><br>
+  <input type="text" id="orgrsb" name="Generic Org Text Field" placeholder="Some Generic Text"/><br>
+   <label for="orgfuniquersb">Unique Ident for Org</label><br>
+  <input type="text" id="orgfuniquersb" name="Unique Org Field" placeholder="The unique ident for org fields"/><br>
+   <input id="submit2rsb" type="submit" value="Submit"/>
+</form> 
+
+</fieldset>
+
+
+
 </fieldset>
 
 
