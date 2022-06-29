@@ -43,7 +43,7 @@ let delete_cookie = function(name) {
   <label for="email">Email</label><br>
   <input type="email" id="email" name="email" placeholder="Email"/><br>
   <label for="checktrue">Checkbox</label><br>
-  <input type="checkbox" id="checktrue" name="Check Me"/><br>
+  <input type="checkbox" id="checktrue" name="Check Me" value="checked"/><br>
    <label for="number">Number:</label><br>
   <input type="number" id="number" name="Number"/><br>
    <input id="submit" type="submit" value="Submit"/>
