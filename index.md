@@ -135,6 +135,8 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Another basic tracked Form](trackedform/basictrackedform3.md)
 * [A basic tracked Form that redirects on submit](trackedform/tfredirected.md)
 * [Form that also has org fields](trackedform/tfuserwithorgfields.md)
+* [Form created on a provider - todo not implemented](trackedform/tfproviderform.md)
+* [Form created on mailchimp](trackedform/tfmailchimp.md)
 
 #### Not expected to work - These are for testing
 
