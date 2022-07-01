@@ -178,6 +178,10 @@ Disabled account not setup
 
 * [Zendesk Chat Widget](zendesk/webWidget.md)
 
+### Custom FE Activity
+
+* [Custom FE Activity Page](activity/frontendactivity.md)
+
 
 ### Embedded Form - 
 * [An embedded form](embedded/embeddedform.md);
