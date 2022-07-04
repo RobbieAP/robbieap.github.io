@@ -22,8 +22,8 @@ filename: frontendactivity2.md
         ap3c.activity({
 	"activity_id": "act:cm:test-that-it-is-not-brokensdfasdfasdf",
 	"attributes": {
-		"str:cm:generic-text": "example string value",
-		"str:cm:number": "example string value"
+		"str:cm:generic-text": "This exist on same page as another-custom-fe-activty",
+		"str:cm:number": "If working thats cool"
 	}
 });
 	});
