@@ -85,6 +85,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Bar on timer](bar/onTimer.md)
 * [Bar on Exit](bar/onExit.md)
 * [Bar on Scroll](bar/onScroll.md)
+* [Bar on Ozversusmarshal](bar/barelsewhere.md)
 
 ### Banner - Built from Scratch
 
