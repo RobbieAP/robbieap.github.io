@@ -142,7 +142,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Check random input robs sandbox](trackedform/tfrandominput.md)
 * [TF basic on custom dom](trackedform/basictrackedformcustomdom.md)
 #### Not expected to work - These are for testing
-
+* [A form with no actual fields](trackedform/zerofieldform.md)
 * [Blank page with only a capture script no form for testing](trackedform/capturenoform.md)
 * [Basic Tracked Form with no script](trackedform/basictrackedformnoscript.md)
 * [Basic Tracked Form that has no form element](trackedform/basictrackedformnoformelement.md)
