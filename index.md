@@ -96,6 +96,7 @@ Some of these links will automatically clear cookies, most are probalby turned o
 ### Popup - Built from Scratch 
 
 * [Popup on Load](popup/onLoad.md)
+* [Popup on Schedule](popup/onSchedule.md)
 * [Popup on timer](popup/onTimer.md)
 * [Popup on Exit](popup/onExit.md)
 * [Popup on Scroll](popup/onScroll.md)
