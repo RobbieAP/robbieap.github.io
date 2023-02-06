@@ -122,6 +122,10 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * [Spinner on Exit](spin/onExit.md)
 * [Spinner on Scroll](spin/onScroll.md)
 
+### Prompt - Built from scratch
+
+* [Prompt on Load - with push notification](prompt/onLoad.md)
+
 ### Prebuilt Widgets
 
 * TODO
