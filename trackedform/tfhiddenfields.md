@@ -48,9 +48,9 @@ let delete_cookie = function(name) {
   <input type="hidden" id="hiddenphone2" value='0430000000' name="hidden phone"/><br>
   <input type="hidden"  name="UTM_Campaign" value="[utm_campaign]"/><br>
   <input type="hidden" id="hidden3" name="UTM_Source" value="[utm_source]"/><br>
-  <input type="hidden" id="hiddenfalsy" name="a false value", value=false /><br>
-  <input type="hidden" id="hiddentruthy" name="a false value", value=true /><br>
-  <input type="hidden" id="hiddennumeric" name="a false value", value=1234567 /><br>
+  <input type="hidden" id="hiddenfalsy" name="a false value", value='false' /><br>
+  <input type="hidden" id="hiddentruthy" name="a true value", value='true' /><br>
+  <input type="hidden" id="hiddennumeric" name="a number value", value=1234567 /><br>
   <input id="submit" type="submit" value="Submit"/>
 </form> 
 
