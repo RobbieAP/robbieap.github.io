@@ -40,4 +40,4 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 </script>
 
 
-Custom association tracking { "ac" : [ {}, {}, {}, ]}  with a single object
+Custom association tracking { "ac" : [ {}, {}, {}, ]}  with a double object
