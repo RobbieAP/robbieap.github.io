@@ -1,7 +1,7 @@
 ---
-title: Custom tracking code with double value
+title: Custom tracking code with two values number and text
 layout: template
-filename: customtrackingcodedouble.md
+filename: customtrackingcodereverse.md
 --- 
 
 <!-- Robs cookie deleter capture code -->
@@ -33,13 +33,14 @@ COOKIESTODELETE.forEach((name) => delete_cookie(name));
 	ap3c.cmd = ap3c.cmd || [];
 	ap3c.cmd.push(function() {
 		ap3c.init('YdOVzkqoVlq0G5Pscm9iZXJ0', 'https://capture-api-master.stgautopilotapp.com/');
-		ap3c.track({v: 0,  "ac" : [ {"fi": "str:cm:generic-text", "v": "firstmerge" }, {"fi": 'int:cm:exnumber', 'v': 1234567895} ]});
+		ap3c.track({v: 0,  "ac" : [ {"fi": 'int:cm:exnumber', 'v': 112233},{"fi": "str:cm:generic-text", "v": "numberfirstthentext" }]});
 	});
 	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
 	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
 
-field: generic-text value: firstmerge
-field: exnumber value: 1234567895
+field: exnumber value: 112233
+field: generic-text value: numberfirstthentext
+
 
 Custom association tracking { "ac" : [ {}, {}, {}, ]}  with a double object
