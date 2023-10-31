@@ -32,6 +32,9 @@ Some of these links will automatically clear cookies, most are probalby turned o
 * <button onclick="delete_cookie('ap3converted')">Delete ap3converted Cookie</button>
 * <button onclick="delete_cookie('ap3dm')">Delete ap3dm Cookie</button>
 * <button onclick="delete_cookie('ap3sess')">Delete ap3sess Cookie</button>
+* <button onclick="delete_cookie('ap3shown')">Delete ap3shown Cookie</button>
+* <button onclick="delete_cookie('ap3c_talk')">Delete ap3c_talk Cookie</button>
+* <button onclick="delete_cookie('AP3U')">Delete ap3u Cookie</button>
 
 
 ### Test Links 
@@ -127,6 +130,9 @@ Some of these links will automatically clear cookies, most are probalby turned o
 ### Prompt - Built from scratch
 
 * [Prompt on Load - with push notification](prompt/onLoad.md)
+
+###  Widgets other
+* [use to test on url](onurl/onURL.md)
 
 ### Prebuilt Widgets
 
