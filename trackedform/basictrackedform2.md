@@ -37,7 +37,7 @@ let delete_cookie = function(name) {
 
 <fieldset>
     <legend>Fill out the Basic form:</legend>
-<form id="basictrackedform" action="" onsubmit="return false;">
+<form id="basictrackedform" action="" onsubmit="alert('Details submitted');return false;">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" placeholder="First Name"/><br>
   <label for="lname">Last name:</label><br>
